@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:ital,wght@1,200&family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;    
+}
+.active{
+    font-weight: bold;
+}
+.small{
+    display: flex; 
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-heading{
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+.navbar{
+    background-color: #00BF8F;
+    height: 6rem;
+    color: white;
+    max-width: 100vw;
+    border-bottom-left-radius: 16px;   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}   
+ .non-bullet{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+    font-size: 20px;
+}
+.center{    
+    text-align: center;
+}
+
+
+.padding-top{
+    padding-top: 1.5rem;
+}
+ img{
+    max-width:270px;
+    display: block;
+    margin: auto;
+    
+}
+nav ul li a .active{
+    font-weight: bold;
+}
+.img-content h2{
+
+    font-size: 30px;
+    padding-top: 20px;
+}
+h2 span{
+    color: #00BF8F;
+}
+
+h2{
+    text-align: center;
+
+}
+.technologies{
+    padding: 70px 0;
+    background-color: lightgrey;
+    margin-top: 25px;
+}
+
+.projects{
+    padding: 40px 0;
+}
+.blog{
+    padding: 40px 0;
+    background-color: lightgrey;
+
+}
+.container{
+    max-width:35rem;
+    display: block;
+    margin: auto;
+    padding: 1rem ;
+}
+.link-projects{
+    padding-bottom: 2rem;
+}
+.link-projects a{
+    text-decoration: none;
+    background-color: #00BF8F;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 22px 10px 10px;
+}
+
+.link-blog a{
+    text-decoration: none;
+    border: 1px solid #00BF8F;
+    background-color: none;
+    color: #00BF8F;
+    border-radius: 6px;
+    font-weight: 800;
+    padding: 10px 22px 10px 10px;
+}
+nav ul li .active{
+    font-weight: bold;
+}
+/* footer section */
+footer{
+    background-color: #00BF8F;
+    border-top-right-radius: 16px;
+}
+.footer-heading{
+    margin: auto;
+}
+.inline{
+    display: flex;
+}
+.p-lr{
+    padding: 0 5px;
+}
+.p-left{
+    padding-left: 25px;
+}
+.p-tb{
+    padding: 1rem;
+}
+.p-bottom{
+    padding-bottom: 2rem;
+}
+.container .image-size{
+    max-width: 100%;
+    max-height: 100%;
+}
